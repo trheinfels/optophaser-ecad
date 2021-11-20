@@ -1,0 +1,21 @@
+Revision 2:
+- ATMega32U2 -> STM32L151
+- Add DAC output as alternative for PWM
+- Solder Bridges -> Jumpers
+- Pin Headers -> JST XH
+- Rename U2 <-> U3
+- TL074 -> LM324 for LED driver
+- 6th -> 4th order low-pass
+- Additional LED driver
+- Fix mixed up phase shifter opamp inputs
+- Buffer input signal to avoid attenuation at the output mixer
+- Move resistor in resonance path
+- Add resonance selector
+- Set resonance stage gain to <= 1
+- Set component values to a center frequency range of around 90-600 Hz
+- Add capacitor to voltage divider for virtual ground
+- Add ferrite bead between 9V rail and uc voltage regulator
+- Replace USB header with dedicated type B jack
+- Move PCB label from copper to silk screen
+- Add connections for a rotary encoder
+- Add via stitching
