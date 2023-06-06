@@ -1,6 +1,6 @@
-# Optophaser Guitar Pedal
+# Optophaser Guitar Pedal - ECAD
 
-This repository contains the ECAD files for a four stage optophaser guitar effect pedal designed in KiCad.
+This repository contains the ECAD files for an eight stage optophaser guitar effect pedal designed in KiCad.
 
 ![Render view of the PCB](images/render.jpg)
 
